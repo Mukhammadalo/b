@@ -169,10 +169,10 @@ p {
   top:130px;
   line-height: 2;
 }
-a{
+.qwe{
   margin-right: 20px;
   color: grey;
 }
-a:hover{
+.qwe:hover{
   font-size: 150%;
 }
