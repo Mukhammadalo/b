@@ -1,150 +1,178 @@
 body {
-  color: #40514E;
-  margin: 0;
-  text-align: center;
-  font-family: 'Exo 2', sans-serif;
-}
-
-h1 {
-  font-weight: normal;
-  line-height: 2;
-  margin: 0 auto;
-  margin: 50px auto 0 auto;
-  font-family: 'Dancing Script', cursive;
-  font-size: 4.5rem;
-  color: #66BFBF
-}
-
-h2 {
-  font-size: 2.5rem;
-  color: #66BFBF;
-  text-indent: inherit;
-}
-
-h3 {
-  color: #11999E;
-  margin: auto;
-  text-align: center;
-}
-
-a {
-  color: black;
-  font-size: 30%;
-  margin: 10px 10px 0 0;
-  text-decoration: inherit;
   font-family: 'Montserrat', sans-serif;
 }
 
-a:hover {
-  color: #40514E;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.3rem;
 }
 
 p {
-  font-family: 'Epilogue', sans-serif;
-  text-indent: inherit;
+  color: #8f8f8f;
 }
 
-img {
-  width: 25%;
-  margin-right: 10px;
+/*Nav bar*/
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-span {
-  font-weight: normal;
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
+.nav-item {
+  padding: 0 18px;
 }
 
-.top-container {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 150px
+.nav-link {
+  font-size: 1.0rem;
+  font-family: "Montserrat";
 }
 
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  height: 200px;
-  width: 200px;
-  top: 1px;
+/*Buttons*/
+.doww {
+  margin: 5% 3% 5% 0;
 }
 
-.bottom-cloud {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  left: 200px;
-}
-
-.mountain {
-  height: 300px;
-  width: auto;
-}
-
-.i {
-  height: 30px;
-  width: 30px;
-}
-
-.g {
-  height: 30px;
-  width: 30px;
-}
-
-.f {
-  height: 30px;
-  width: 30px;
-}
-
-.profile {
+/*-- Title image -->*/
+.title-image {
   width: 60%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*Features */
+#features {
+  background-color: #fff;
+  padding: 5% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.iic {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.iic:hover {
+  color: #ff4c68;
+}
+
+/*Testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*press Section*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* card */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+/* Mediaaaa */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 3%;
+  }
+}
+
+/* call to action */
+#cta{
+  text-align: center;
+  background-color: #ff4868;
+  height: 500px;
+  color: white;
+}
+
+.ctah3{
+  padding: 7% 15%;
+  font-family: 'Montserrat';
+  font-size: 3rem;
+}
+
+.loww{
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+/* Footer */
+#footer{
+  background-color: #fff;
+  height: 200px;
+  text-align: center;
+}
+.fclass{
+  position: relative;
+  top:130px;
   line-height: 2;
 }
-
-.skills {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
+a{
+  margin-right: 20px;
+  color: grey;
 }
-
-.contact-me {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.prof {
-  float: left;
-  margin-right: 30px;
-}
-
-.skill {
-  float: right;
-  margin-left: 30px;
-}
-
-.contact {
-  float: left;
-  margin-right: 30px;
-}
-
-.bottom-container {
-  flex-direction: column;
-  background-color: #E4F9F5;
-  line-height: 2;
-  padding: 40px 0 15px 0;
-}
-
-#last {
-  font-size: 20%;
+a:hover{
+  font-size: 150%;
 }
